@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+}
+
+.container {
+    max-width: 100%;
+    padding: 0;
+    background-color: #F7F2E0;
+}
+
+.nav-bar {
+    height: 4.6rem;
+    background-color: #F7F2E0;
+}
+
+.aboutLisbon {
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+.brand {
+    font-size: 2.2rem;
+    line-height: 4.6rem;
+    margin-left: 3.6rem;
+    color: #8F8359;
+}
+
+ul {
+    margin: 0 3.6rem 0 0;
+    line-height: 4.6rem;
+}
+
+.nav-list {
+    list-style-type: none;
+    display: inline;
+    margin-left: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+}
+
+ul > li > a {
+    color: #8F8359;
+}
+
+.mainImg {
+    width: 100%;
+}
+
+.mainImgBox {
+    position: relative;
+}
+
+.pageTitle {
+    position: absolute;
+    width: 80%;
+    top: 45%;
+    left: 10%;
+    text-align: center;
+    color: white;
+}
+
+.pageTitle > h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 8.8rem;
+}
+
+.pageTitle > cite {
+    font-family: 'Cardo', serif;
+    font-size: 1.8rem;
+}
+
+.row .column.column-25 {
+    line-height: 0;
+    padding: 0;
+    margin-top: 4.6rem;
+    margin-bottom: 4.6rem;
+}
+
+.image-1 {
+    border-top: 0.8rem solid white;
+    border-right: 0.4rem solid white;
+    border-bottom: 0.4rem solid white;
+    border-left: 0.8rem solid white;
+}
+
+.image-2 {
+    border-top: 0.4rem solid white;
+    border-right: 0.4rem solid white;
+    border-bottom: 0.8rem solid white;
+    border-left: 0.8rem solid white;
+}
+
+.image-4 {
+    border-top: 0.8rem solid white;
+    border-right: 0.8rem solid white;
+    border-bottom: 0.4rem solid white;
+    border-left: 0.4rem solid white;
+}
+
+.image-5 {
+    border-top: 0.4rem solid white;
+    border-right: 0.8rem solid white;
+    border-bottom: 0.8rem solid white;
+    border-left: 0.4rem solid white;
+}
+
+#description {
+    text-align: left;
+    padding: 8.8rem 5.8rem 7.2rem 5.8rem;
+}
+
+section > div > h2 {
+    font-family: 'Cardo', serif;
+    font-size: 3.6rem;
+    margin-bottom: 3.6rem;
+    color: #8F8359;
+}
+
+section > div > p {
+    width: 90%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+}
+
+section > div > cite {
+    font-family: 'Cardo', serif;
+    font-size: 1.6rem;
+    color: #8F8359;
+}
+
+.bottom {
+    background-color: #D0C8AC;
+    text-align: center;
+}
+
+.bottom2 {
+    background-color: #8F8359;
+    text-align: center;
+    color: #FFFDF7;
+    font-family: 'Cardo', serif;
+}
+
+/*For mobile*/
+
+@media only screen and (min-width: 320px) and (max-width: 401px) {
+    .pageTitle {
+        top: 30%;
+    }
+
+    .pageTitle > h1 {
+        font-size: 4.6rem;
+        margin-bottom: 0;
+    }
+
+    .pageTitle > cite {
+    font-size: 1rem;
+    }
+}
+
+/*For tablets*/
+
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+
+}
