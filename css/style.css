@@ -1,5 +1,8 @@
+/*Page 1 CSS*/
+
 body {
     margin: 0;
+    background-color: #F7F2E0;
 }
 
 .container {
@@ -9,8 +12,9 @@ body {
 }
 
 .nav-bar {
-    height: 4.6rem;
+    height: 3.6rem;
     background-color: #F7F2E0;
+    border-bottom: 1px solid #8F835A;
 }
 
 .aboutLisbon {
@@ -18,16 +22,9 @@ body {
     margin: 0 auto;
 }
 
-.brand {
-    font-size: 2.2rem;
-    line-height: 4.6rem;
-    margin-left: 3.6rem;
-    color: #8F8359;
-}
-
 ul {
     margin: 0 3.6rem 0 0;
-    line-height: 4.6rem;
+    line-height: 3.6rem;
 }
 
 .nav-list {
@@ -124,13 +121,39 @@ section > div > p {
 
 section > div > cite {
     font-family: 'Cardo', serif;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     color: #8F8359;
+}
+
+.button {
+    background-color: #8F835A;
+    border-style: none;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 2.2rem;
 }
 
 .bottom {
     background-color: #D0C8AC;
     text-align: center;
+    font-family: 'Cardo', serif;
+    padding: 1.8rem 0;
+}
+
+footer > div > div > a {
+    color: #FFFDF7;
+    font-size: 2.8rem;
+    margin: 0 1.6rem;
+}
+
+footer > div > div > a:hover {
+    color: #8F835A;
+}
+
+.message {
+    font-size: 1.8rem;
+    color: #8F8359;
+    margin: 1.6rem 0 0 0;
+    font-weight: 500;
 }
 
 .bottom2 {
@@ -138,27 +161,302 @@ section > div > cite {
     text-align: center;
     color: #FFFDF7;
     font-family: 'Cardo', serif;
+    padding: 0.8rem 0;
+}
+
+/*Page 2 CSS*/
+
+.banner {
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+.row .column {
+    padding: 0;
+}
+
+.lisbonHistory {
+    max-width: 60%;
+    margin: 3.6rem auto 0 auto;
+    padding-bottom: 3.6rem;
+}
+
+.history {
+    font-family: 'Cardo', serif;
+    font-size: 3.6rem;
+    color: #8F8359;
+    text-align: center;
+    margin-bottom: 3.6rem;
+}
+
+.historyContent {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+    text-align: justify;
+}
+
+/*Page 3*/
+
+.places {
+    text-align: center;
+    font-family: 'Cardo', serif;
+    font-size: 3.6rem;
+    color: #8F8359;
+    margin: 3.6rem;
+}
+
+.placesRows,
+.placesRows3 {
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+.placesRows3 {
+    margin-bottom: 3.6rem;
+}
+
+div > div > h2 {
+    font-family: 'Cardo', serif;
+    font-size: 2.8rem;
+    color: #8F8359;
+    text-decoration: underline;
+}
+
+.placeDescription1,
+.placeDescription2,
+.placeDescription3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+    margin: 0;
+}
+
+.placeDescription2 {
+    text-align: right;
+}
+
+.alfama {
+    text-align: right;
+}
+
+#placesCont {
+    padding: 1.6rem;
 }
 
 /*For mobile*/
 
-@media only screen and (min-width: 320px) and (max-width: 401px) {
+@media only screen and (min-width: 320px) and (max-width: 400px) {
+    .nav-bar {
+        height: 2.8rem;
+    }
+
+    ul {
+        line-height: 2.8rem;
+    }
+
     .pageTitle {
-        top: 30%;
+        top: 40%;
     }
 
     .pageTitle > h1 {
-        font-size: 4.6rem;
+        font-size: 5.8rem;
         margin-bottom: 0;
     }
 
     .pageTitle > cite {
     font-size: 1rem;
     }
+
+    .pageTitle > cite {
+    display: none;
+    }
+
+    .float-right {
+        float: none;
+        margin: 0;
+        text-align: center;
+    }
+
+    .nav-list {
+        margin: 0 0.8rem;
+    }
+
+    .mainImgBox {
+        background-color: white;
+    }
+
+    .aboutLisbon {
+        max-width: 100%;
+        position: relative;
+    }
+
+    #showcase {
+        max-width: 50%;
+        margin: 0;
+        position: absolute;
+        top: 0;
+    }
+
+    #showcase-2 {
+        max-width: 50%;
+        margin: 0;
+        position: absolute;
+        top: 0;
+        left: 50%;
+     }
+
+    #description {
+        max-width: 100%;
+        padding: 4.6rem 2.8rem 4.6rem 2.8rem;
+        text-align: justify;
+        margin-top: 40rem;
+    }
+
+    section > div > h2 {
+        font-size: 2.8rem;
+        margin-bottom: 3.6rem;
+    }
+
+    section > div > p {
+        width: 100%;
+        font-size: 1.4rem;
+    }
+
+    /*Page 2*/
+
+    .banner {
+        max-width: 100%;
+    }
+
+    main > div > div {
+        max-width: 33.33%;
+    }
+
+    .lisbonHistory {
+        max-width: 90%;
+        margin: 3.6rem auto 0 auto;
+        padding-bottom: 3.6rem;
+    }
+
+    .historyContent {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.4rem;
+        text-align: justify;
+    }
+
+    /*Page 3*/
+
+    .placesRows,
+    .placesRows3 {
+        max-width: 90%;
+        text-align: justify;
+    }
+
+    .placeDescription2 {
+        text-align: justify;
+    }
 }
 
 /*For tablets*/
 
-@media only screen and (min-width: 401px) and (max-width: 960px) {
+@media only screen and (min-width: 401px) and (max-width: 640px) {
+    .nav-bar {
+        height: 2.8rem;
+    }
 
+    ul {
+        line-height: 2.8rem;
+    }
+
+    .pageTitle {
+        top: 40%;
+    }
+
+    .pageTitle > h1 {
+        font-size: 5.8rem;
+        margin-bottom: 0;
+    }
+
+    .pageTitle > cite {
+    font-size: 1rem;
+    }
+
+    .pageTitle > cite {
+    display: none;
+    }
+
+    .float-right {
+        float: none;
+        margin: 0;
+        text-align: center;
+    }
+
+    .nav-list {
+        margin: 0 0.8rem;
+    }
+
+    .mainImgBox {
+        background-color: white;
+    }
+
+    .aboutLisbon {
+        max-width: 100%;
+        position: relative;
+    }
+
+    #showcase {
+        max-width: 50%;
+        margin: 0;
+        position: absolute;
+        top: 0;
+    }
+
+    #showcase-2 {
+        max-width: 50%;
+        margin: 0;
+        position: absolute;
+        top: 0;
+        left: 50%;
+     }
+
+     .image-1,
+     .image-4 {
+        border-top-style: none;
+     }
+
+    #description {
+        max-width: 100%;
+        padding: 4.6rem 2.8rem 4.6rem 2.8rem;
+        text-align: justify;
+        margin-top: 62rem;
+    }
+
+    section > div > h2 {
+        font-size: 2.8rem;
+        margin-bottom: 3.6rem;
+    }
+
+    section > div > p {
+        width: 100%;
+        font-size: 1.4rem;
+    }
+
+    /*Page 2*/
+
+    .lisbonHistory {
+        max-width: 90%;
+        margin: 3.6rem auto 0 auto;
+        padding-bottom: 3.6rem;
+    }
+
+    /*Page 3*/
+
+    .placesRows,
+    .placesRows3 {
+        max-width: 90%;
+        text-align: justify;
+    }
+
+    .placeDescription2 {
+        text-align: justify;
+    }
 }
